@@ -9,7 +9,7 @@ public class Sim {
         Call call3 = new Call(10, 3875469743L);
         call3.callInProgress(calls, 2);
         Call call4 = new Call(3, 3595464747L);
-        // call4.callInProgress(calls, 3);
+        call4.callInProgress(calls, 3);
         Call call5 = new Call(1, 34715467743L);
         // call5.callInProgress(calls, 4);
 
@@ -18,8 +18,8 @@ public class Sim {
 
     }
 
-    private long cellphoneNumber;
-    private int credit;
+    private final long cellphoneNumber;
+    private final int credit;
     static String[] calls = new String[5];
 
 

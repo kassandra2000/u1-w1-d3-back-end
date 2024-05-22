@@ -10,4 +10,6 @@ public class Carrello {
         this.article = article;
         this.sum = sum;
     }
+
+
 }
